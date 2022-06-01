@@ -17,7 +17,8 @@ import { RouterModule} from "@angular/router";
 
 // Services
 import { ContractService } from "../services/contract/contract.service";
-import { ThreeBox } from "../services/3box.service"
+import { ThreeBox } from "../services/3box.service";
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ThreeBox } from "../services/3box.service"
     HomeComponent,
     TopNavComponent,
     TransactionComponent,
-    ErrorComponent
+    ErrorComponent,
+    HeaderComponent
   ],
   imports: [
     CommonModule,
