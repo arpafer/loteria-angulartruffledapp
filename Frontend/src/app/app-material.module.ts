@@ -30,7 +30,7 @@ import { MatSpinner } from '@angular/material/progress-spinner';
     MatInputModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule,
+    MatMenuModule
   ],
   exports: [
     LayoutModule,

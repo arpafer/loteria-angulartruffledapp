@@ -1,3 +1,16 @@
+@use '~@angular/material/theming' as mat;
+@include mat-core();
+
+
 body {
   margin: 0;
+  background-color: white;
 }
+
+.container-botones-head {
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  gap:10px;
+}
+
